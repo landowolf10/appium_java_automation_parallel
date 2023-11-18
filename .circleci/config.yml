@@ -12,15 +12,16 @@ jobs:
       - run:
           name: Run Appium tests
           command: |
+            chmod +x gradlew
             ./gradlew clean test --tests LoginRunner
       - store_artifacts:
-          path: src/main/java/project/reports
-          destination: cucumber-reports
+          path: test-output/HtmlReport
+          destination: extent-report
       - store_test_results:
-          path: src/main/java/project/reports
+          path: test-output/HtmlReport
 
 workflows:
   version: 2
-  nightly-build:
+  test-build:
     jobs:
       - build
