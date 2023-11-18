@@ -1,0 +1,92 @@
+{
+  "user":[
+    {
+      "user_type": "agronomist",
+        "email": "lance.coers@syngenta.com",
+      "password":"ChangeIt@123",
+      "growers": [
+        {
+          "name": "Becker Farms"
+        }
+      ]
+    },
+    {
+      "user_type": "sr tara hendricks",
+      "email": "tara.hendricks@syngenta.com",
+      "password": "ChangeIt@123",
+      "sellers": [
+        {
+          "name": "WALSH HUNT SEED SERVICE LLC 87 Growers"
+        }
+      ]
+    },
+    {
+      "user_type": "seller",
+      "email": "ghx.dev.test+seller2@gmail.com",
+      "password": "Syngenta2021!",
+      "growers": [
+        {
+          "name": "Bates Next Generation Farms 10 Fields 637.3 Ac."
+        },
+        {
+          "name": "Daryl Sondgeroth 2 Fields 41.7 Ac."
+        }
+      ]
+    },
+    {
+      "user_type": "seller 2",
+      "email": "ghx.dev.test+seller2@gmail.com",
+      "password": "Syngenta2021!"
+    },
+    {
+      "user_type": "grower",
+      "email": "ghx.test.grower+96@gmail.com",
+      "password": "Syngenta2021!"
+    },
+    {
+      "user_type": "grower 2",
+      "email": "ghx.test.grower+62@gmail.com",
+      "password": "Syngenta2021"
+    },
+    {
+      "user_type": "grower 3",
+      "email": "ghx.test.grower+40@gmail.com",
+      "password": "SyngentaSteve2021!"
+    },
+    {
+      "user_type": "grower+104",
+      "email": "ghx.test.grower+104@gmail.com",
+      "password": "Syngenta2021!"
+    },
+    {
+      "user_type": "grower 5",
+      "email": "ghx.test.grower+agclime002@gmail.com",
+      "password": "Syngenta2023!"
+    },
+    {
+      "user_type": "grower molly",
+      "email": "ghx.test.grower+molly@gmail.com",
+      "password": "SyngentaSteve2021!"
+    },
+    {
+      "user_type": "fsm",
+      "email": "brittany.olson@syngenta.com",
+      "password":"ChangeIt@123"
+    },
+    {
+      "user_type": "dm",
+      "email": "brittany.olson@syngenta.com",
+      "password":"ChangeIt@123"
+    },
+    {
+      "user_type": "sales rep kurt",
+      "email": "kurt.varland@syngenta.com",
+      "password":"ChangeIt@123"
+    },
+    {
+      "user_type": "invalid user",
+      "email": "ghx.test.grower+96@gmail.co",
+      "password": "Syngenta2021!"
+    }
+  ]
+}
