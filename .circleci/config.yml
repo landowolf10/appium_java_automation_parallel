@@ -4,15 +4,15 @@ jobs:
     docker:
       - image: circleci/android:api-30-node
     environment:
-      - BROWSERSTACK_USERNAME:
-      - BROWSERSTACK_ACCESS_KEY:
+      - BROWSERSTACK_USERNAME: orlandoavila_SaKnUC
+      - BROWSERSTACK_ACCESS_KEY: wpUp3j8EbKrHdvrweUxk
     steps:
       - checkout:
           path: ~/project
       - run:
           name: Run Appium tests
           command: |
-            ./gradlew clean test --tests SanityCheckRunnerIOS
+            ./gradlew clean test --tests LoginRunner
       - store_artifacts:
           path: src/main/java/project/reports
           destination: cucumber-reports
